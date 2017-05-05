@@ -1,0 +1,19 @@
+@font-face {
+  font-family: NiveauGroteskBold;
+  src: url(NiveauGroteskBold.otf)
+}
+
+@font-face {
+  font-family: NiveauGroteskExtraLight;
+  src: url(NiveauGroteskExtraLight.otf)
+}
+
+h2 {
+  font-family: NiveauGroteskExtraLight;
+  font-weight: lighter;
+  font-size: 1.5rem;
+}
+
+.project-company-name, .project-company-desc {
+  font-family: NiveauGroteskBold;
+}

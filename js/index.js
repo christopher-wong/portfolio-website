@@ -6,3 +6,9 @@ $(document).ready(function (){
     $(".email").fadeToggle()
   });
 } );
+
+document.onkeypress = function(e) {
+  if (e.keyCode === 112 || window.event) {
+    window.location="projects.html"
+  }
+}
