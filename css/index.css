@@ -12,7 +12,7 @@ a {
   text-decoration: none;
 }
 
-b {
+.autodesk {
   color: #24a824;
 }
 
@@ -62,4 +62,9 @@ h1 {
   border-radius: 50%;
   height: 100px;
   weight: 100px;
+}
+
+#small {
+  font-size: 1em;
+  font-style: italic;
 }
