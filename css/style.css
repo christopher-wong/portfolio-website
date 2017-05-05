@@ -1,12 +1,10 @@
 @font-face {
   font-family: NiveauGroteskExtraLight;
-  font-weight: lighter;
   src: url(NiveauGroteskExtraLight.otf)
 }
 
 @font-face {
   font-family: NiveauGroteskBold;
-  font-weight: bolder;
   src: url(NiveauGroteskBold.otf)
 }
 
