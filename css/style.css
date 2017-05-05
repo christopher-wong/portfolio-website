@@ -1,11 +1,11 @@
 @font-face {
-  font-family: NiveauGroteskExtraLight;
-  src: url(NiveauGroteskExtraLight.otf)
+  font-family: NiveauGroteskBold;
+  src: url(NiveauGroteskBold.otf)
 }
 
 @font-face {
-  font-family: NiveauGroteskBold;
-  src: url(NiveauGroteskBold.otf)
+  font-family: NiveauGroteskExtraLight;
+  src: url(NiveauGroteskExtraLight.otf)
 }
 
 a {
