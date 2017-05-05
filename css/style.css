@@ -1,0 +1,28 @@
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+b {
+  color: #24a824;
+}
+
+.fa-facebook-official:hover {
+  color: #d5dbdb;
+}
+
+.fa-twitter:hover {
+  color: #d5dbdb;
+}
+
+.fa-instagram:hover {
+  color: #d5dbdb;
+}
+
+.fa-linkedin:hover {
+  color: #d5dbdb;
+}
+
+.fa-file-text:hover {
+  color: #d5dbdb;
+}
