@@ -1,3 +1,15 @@
+@font-face {
+  font-family: NiveauGroteskExtraLight;
+  font-weight: lighter;
+  src: url(NiveauGroteskExtraLight.otf)
+}
+
+@font-face {
+  font-family: NiveauGroteskBold;
+  font-weight: bolder;
+  src: url(NiveauGroteskBold.otf)
+}
+
 a {
   text-decoration: none;
   color: #ffffff;
@@ -5,6 +17,18 @@ a {
 
 b {
   color: #24a824;
+}
+
+p {
+  font-family: NiveauGroteskExtraLight;
+}
+
+h1 {
+  font-family: NiveauGroteskBold;
+}
+
+.email {
+  display: none;
 }
 
 .fa-facebook-official:hover {
@@ -25,4 +49,20 @@ b {
 
 .fa-file-text:hover {
   color: #d5dbdb;
+}
+
+.fa-envelope-o:hover {
+  color: #d5dbdb;
+}
+
+.fa-fw {
+  margin-right: 5%;
+}
+
+.img-circle {
+  /*float: left;*/
+  vertical-align: middle;
+  border-radius: 50%;
+  height: 100px;
+  weight: 100px;
 }
