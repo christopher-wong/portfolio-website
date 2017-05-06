@@ -1,5 +1,5 @@
-# website-simple
-This is my Portfolio website to showcase a some information about myself and my social links and resume.
+# portfolio-website
+This is my website to showcase my resume, contact info, and social links along with a brief description of myself
 
 ## Technologies used:
 * `HTML / CSS`
