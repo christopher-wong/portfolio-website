@@ -12,16 +12,16 @@ a {
   text-decoration: none;
 }
 
-.autodesk {
-  color: #24a824;
-}
-
 p {
   font-family: NiveauGroteskExtraLight;
 }
 
 h1 {
   font-family: NiveauGroteskBold;
+}
+
+.autodesk {
+  color: #24a824;
 }
 
 .email {
@@ -67,4 +67,8 @@ h1 {
 #small {
   font-size: 1em;
   font-style: italic;
+}
+
+.active {
+  color: #d5dbdb;
 }
