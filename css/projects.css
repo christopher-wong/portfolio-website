@@ -14,11 +14,18 @@ h2 {
   font-size: 1.5rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 .project-company-name, .project-company-desc {
   font-family: NiveauGroteskBold;
 }
 
 .learn-more {
-  text-decoration: none;
   font-family: NiveauGroteskBold;
+}
+
+#red-link {
+  color: #f44e62;
 }
