@@ -16,10 +16,12 @@
   <link rel="stylesheet" href="../css/simple-grid.css">
   <link rel="stylesheet" href="../css/projects.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/gh/kenwheeler/slick@1.7.1/slick/slick.css"/>
+  <!-- Add the slick-theme.css if you want default styling -->
+  <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/gh/kenwheeler/slick@1.7.1/slick/slick-theme.css"/>
 </head>
 
-<body>
+<body bgcolor="#E6E6FA">
   <div class="container">
     <div class="row">
       <div class="col-1 hidden-sm">
@@ -54,13 +56,32 @@
           download page </a>which is statically hosted on Surge.sh.
         </p>
         <a class="learn-more" target="_blank" href="https://github.com/christopher-wong/bottlenose-submission-helper">learn more</a>
+        <h2>Modern Minesweeper</h2>
+        <p>
+          Designed a modern take on the classic minesweeper game.
+        </p>
+        <div class="minesweeper-slider">
+          <div><img src="../assets/minesweeper_2.png" width="50%" height"50%"></div>
+          <div><img src="../assets/minesweeper_3.png" width="50%" height"50%"></div>
+        </div>
+        <a class="learn-more" target="_blank" href="">learn more</a>
       </div>
       <div class="col-1 hidden-sm"></div>
     </div>
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="http://cdn.jsdelivr.net/gh/kenwheeler/slick@1.7.1/slick/slick.min.js"></script>
   <script type="text/javascript" src="../js/googleAnalytics.js"></script>
+
+  <script type="text/javascript">
+    $('.minesweeper-slider').slick({
+      'dots': true,
+      'centerMode': true,
+      'slidesToShow': 1,
+      'slidesToScroll': 1,
+    });
+  </script>
 </body>
 
 </html>
